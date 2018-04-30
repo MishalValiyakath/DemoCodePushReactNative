@@ -42,7 +42,7 @@ let codePushOptions = {
   render() {
     return (
       <View style={styles.container}>
-      <Text style={styles.codePush}>Demo - Code Push And Distribute</Text>
+      <Text style={styles.codePush}>Demo - Code Push And Distribute Updated</Text>
         <TouchableOpacity onPress={ () => this.updateDevEnv() }
           style={styles.button}>
           <Text> Connect To Dev </Text>
