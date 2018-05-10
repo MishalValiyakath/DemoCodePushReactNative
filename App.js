@@ -42,12 +42,12 @@ let codePushOptions = {
   render() {
     return (
       <View style={styles.container}>
-      <Text style={styles.codePush}>Demo - Code Push And Distribute New Version</Text>
+      <Text style={styles.codePush}>Demo - Code Push And Distribute Updated</Text>
         <TouchableOpacity onPress={ () => this.updateDevEnv() }
           style={styles.button}>
           <Text> Connect To Dev </Text>
         </TouchableOpacity >
-        <View>
+        {/* <View>
         <TouchableOpacity
           style={styles.button}>
           <Text> Connect To SIT </Text>
@@ -58,7 +58,7 @@ let codePushOptions = {
           style={styles.button}>
           <Text> Connect To UAT </Text>
         </TouchableOpacity>
-        </View>
+        </View> */}
         <View>
           {this.state.logs.map((log, i)=> <Text> {log} </Text>)}
         </View>
